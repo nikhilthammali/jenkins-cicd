@@ -30,7 +30,7 @@ post{
             sh 'docker run --name mypycont -d -p 3000:5000 my-flask'
             mail to: "thammalanikhil68@gmail.com",
             subject: "Notification mail from jenkins",
-            body: "CiCd pipeline"
+            body: "jenkins-cicd build successful"
         }
 }
 
